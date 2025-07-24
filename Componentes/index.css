@@ -12,7 +12,6 @@ nav ul{
     list-style-type: none;
     margin: 10px;
     padding: 0px;
-    max-width: 900px;
 }
 nav a{
     font-size: 20px;
@@ -162,9 +161,22 @@ section{
     .projects {
         display: flex;
         flex-direction: column;
+        gap: 1rem;
+    }
+    .project-img{
+        display: flex;
+        justify-content: center;
     }
     .project-img img{
-        width: 440px;
-        height: 350px;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .project-text{
+        padding: 0 1rem;
+    }
+    .project-text h3{
+        padding-left: 0;
+        font-size: 1.3rem;
     }
 }
